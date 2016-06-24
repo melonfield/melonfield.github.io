@@ -1,0 +1,319 @@
+
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+
+
+}
+
+h1, h2, h3{
+  margin: 0;
+}
+
+/* Header Styles */
+header{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(240, 234,214);
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  position: fixed;
+  z-index: 40;
+}
+
+  .header li {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+  }
+
+
+  .logo{
+    width: 300px;
+    height: 100%;
+    float: left;
+  }
+  .logo h1{
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+  .menu {
+    height: 100%;
+    width: 400px;
+    float: right;
+    padding: 0;
+  }
+
+element.style {
+
+}
+
+  .menu ul {
+    position: relative;
+    top: 35px;
+  }
+  .menu li {
+    float: left;
+    display: inline-block;
+    padding: 0px 5px;
+  }
+
+/* Banner Styles*/
+  #banner {
+    margin: auto;
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/yourwaifuashit.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: absolute;
+    position: absolute;
+    padding: 10;
+    float: left
+
+  }
+
+  #banner h1 {
+    font-family: comic cursive sans-serif;
+    margin: 85px 0px;
+    font-size: 2em;
+    color: rgb(221,0,72);
+  }
+
+
+/* Services Styles */
+      #services {
+        margin: 20px 0px;
+        height: 500px;
+        width: 100%;
+        background-color: rgb(24, 99, 200);
+        padding-top: 515px
+      }
+        .service-container {
+          height: 100%;
+          width: 85%;
+          background-color: rgb(24, 99, 200);
+          margin: 0 auto
+        }
+
+      #services ul {
+        font-size: 4em;
+      }
+
+      #services article {
+          align-content: center;
+          height: 50%;
+          width: 25%;
+          float: left;
+          margin: 0px 45px;
+          background-color: rgb(24, 99, 200);
+        }
+
+/*Carousel Styles */
+
+.carouselbox {
+  font-family: helvetica,sans-serif;
+  font-size: 14px;
+  width: 100px;
+  position: relative;
+  margin: 1em;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 10px #ccc;
+  overflow: hidden;
+}
+.content {
+  margin: 0;
+  padding: 0;
+}
+.content li {
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+.active {
+  height: 130px;
+}.active li {
+  position: absolute;
+  top: 130px;
+
+  pointer-events: none;
+  opacity: 0;
+  transform: scale(0);
+  transition: 1s;
+}
+.active li.current {
+  top: 30px;
+
+  pointer-events: auto;
+  opacity: 1;
+  transform: scale(1);
+  transition: 1s;
+}
+
+nav {
+	display: block;
+	background: #eee;
+	margin: 1em 0;
+	padding: .5em;
+}
+
+
+/* Contact Styles */
+
+          #contact {
+            width: 100%;
+            padding: 25px 0;
+            display: inline-block;
+        /*    background-color: #33ffa1; */
+            background-image: url("../img/tumblr_o0p58jhdAz1u9ao74o1_1280.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+          }
+
+          #contact h1{
+            text-align: center;
+            font-size: 3em;
+          }
+
+          .form-box {
+            padding: 20px 0;
+            height: 500px;
+            width: 500px;
+            margin: 50 auto;
+            align-content: center;
+            float: left;
+          }
+
+          #contact input {
+            height: 40px;
+            width: 100%;
+            margin: 10px 0;
+            color: rgb(0,0,0);
+          }
+
+          #contact textarea {
+            height: 125px;
+            width: 100%;
+            margin: 10px 0;
+          }
+
+          #contact button {
+            height:40px;
+            width: 125px;
+            background-color: lightblue;
+            border: 2px solid #333;
+            color: #fff;
+            font-size: 1.2em;
+          }
+
+        .gmaps {
+          margin: 40px 0px;
+          height: 100%;
+          width: 40%;
+          float: right;
+        }
+        .gmaps iframe {
+          pointer-events: none;
+        }
+
+/* Video Style */
+
+        #video {
+          height: 560px;
+          width: 100%;
+          display: inline-block;
+        }
+        #video iframe {
+          height: 315;
+          width: 560;
+          position: relative;
+          align-content: center
+        }
+        .vid-container {
+          height:100%;
+          width: 100%;
+          text-align: center;
+          margin: 90px 0px;
+        }
+
+/* Carousel Styles */
+
+      #carousel {
+        height: 600px;
+        width: 100%;
+        display: inline-block;
+      }
+      #carousel p {
+        text-align: center;
+        font-family: comic sans-serif;
+        font-size: 2em;
+      }
+      #carousel text {
+        float: right;
+        font-family: times serif;
+        font-size: 1em;
+        padding: 0 100px 0 0;
+      }
+      #carousel .stepcarousel {
+        height: 450px;
+        background-color: white;
+        margin: 100px 0 0 0;
+      }
+      img .mygalley_navbutton {
+        border: 2px solid;
+        border-radius: 100%;
+      }
+
+
+
+        /* Footer Styles */
+
+          footer{
+          margin: auto;
+          height: 230px;
+          width: 100%;
+          background-color: #333;
+          clear: both;
+        }
+          .copyright p{
+            margin: 0;
+            text-align: center;
+            padding: 30px 0;
+            color: #fff;
+          }
+
+          .sm-icons {
+            width: 300px;
+            height: 50px;
+            margin: 0 auto;
+            float: right;
+          }
+
+          .icon {
+            height: 50px;
+            width: 50px;
+            background-color: #fff;
+            float: left;
+            margin: 0 5px;
+            border-radius: 100%;
+          }
+
+          .icon i{
+            font-size: 2em;
+            color: #333;
+            padding: 10px;
+          }
+
+/
